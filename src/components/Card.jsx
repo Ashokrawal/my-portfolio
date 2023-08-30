@@ -5,9 +5,9 @@ export const Card = ({ title, image, description, link, tech }) => {
     <a
       href={link}
       target="_blank"
-      className="py-2 pr-2 my-1 w-5/6 rounded border transition-transform ease-linear hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-green-400 hover:to-blue-500 hover:border-blue-500 hover:translate-x-9 border-neutral-500/60 group"
+      className="py-2 w-full pr-2 my-1 w-5/6 rounded border transition-transform ease-linear hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-green-400 hover:to-blue-500 hover:border-blue-500 hover:translate-x-9 border-neutral-500/60 group"
     >
-      <div className="flex gap-4">
+      <div className="flex gap-4 w-full">
         <img
           src={image}
           alt={`${title} image preview`}

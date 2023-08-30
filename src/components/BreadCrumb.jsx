@@ -29,7 +29,7 @@ export const BreadCrumb = ({ callback, data }) => {
   return (
     <div className="text-sm breadcrumbs">
       <ul>
-        {["frontend", "backend", "mobile"].map((item, i) => (
+        {["frontend"].map((item, i) => (
           <Button
             callback={callback}
             data={data}
